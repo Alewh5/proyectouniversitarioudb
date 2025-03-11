@@ -7,7 +7,7 @@
             {[`bg-${type}`]: type},
             {'rounded': round}
          ]">
-        <div class="container">
+        <div class="navbar d-flex justify-content-between w-100">
             <slot name="container-pre"></slot>
             <slot name="brand">
                 <a class="navbar-brand" href="#" @click.prevent="onTitleClick">

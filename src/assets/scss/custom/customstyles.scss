@@ -1,0 +1,87 @@
+.bg-fondo {
+  height: 200px;
+}
+.img-logo {
+  filter: invert(1);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+      justify-content: space-between;
+  }
+}
+.slider-button .slider-button1, .slider-button .slider-button2 {
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  font-size: 22px;
+  border: 1px solid #fff;
+  text-align: center !important;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 300ms linear 0ms;
+  -khtml-transition: all 300ms linear 0ms;
+  -moz-transition: all 300ms linear 0ms;
+  -ms-transition: all 300ms linear 0ms;
+  -o-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+  position: relative;
+  z-index: 1;
+}
+.slider-button .slider-button1 a, .slider-button .slider-button2 a {
+  color: #fff;
+  text-align: center;
+}
+.slider-button .slider-button1.active a, .slider-button .slider-button2.active a {
+  color: #333;
+  text-align: center;
+}
+.slider-button:not(.slider-navigation) .slider-button1, .slider-button:not(.slider-navigation) .slider-button2 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0 63px;
+  width: auto;
+}
+.slider-button:not(.slider-navigation) .slider-button1, .slider-button:not(.slider-navigation) .slider-button2 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0 63px;
+  width: auto;
+}
+.slider-button .slider-button1.active, .slider-button .slider-button2.active {
+  background-color: white;
+}
+.slider-button .slider-button1, .slider-button .slider-button2 {
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  font-size: 22px;
+  border: 1px solid #fff;
+  text-align: center !important;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 300ms linear 0ms;
+  -khtml-transition: all 300ms linear 0ms;
+  -moz-transition: all 300ms linear 0ms;
+  -ms-transition: all 300ms linear 0ms;
+  -o-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+  position: relative;
+  z-index: 1;
+}
+.slider-button2.active {
+  color: #333 !important;
+  text-align: center;
+}
+.navbar-nav .nav-link .nav-link-inner--text {
+  margin-left: .25rem;
+}

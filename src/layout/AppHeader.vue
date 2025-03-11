@@ -1,8 +1,8 @@
 <template>
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
-            <router-link slot="brand" class="navbar-brand" to="/">
-                <img src="img/brand/white.png" alt="logo">
+            <router-link class="navbar-brand" to="/">
+                <img src="img/brand/logo-IMM_2-e1630948522926.png" alt="logo" class="img-logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -16,11 +16,11 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-end">
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Tienda</span>
+                        <span class="nav-link-inner--text">Inicio</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="#"
@@ -51,7 +51,7 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">Proyectos</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Landing</router-link>
                     <router-link to="/profile" class="dropdown-item">Profile</router-link>
@@ -61,7 +61,25 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Catalogo</span>
+                        <span class="nav-link-inner--text">Propuesta de valor</span>
+                    </a>
+                    <router-link to="/landing" class="dropdown-item">Libreria</router-link>
+                    <router-link to="/profile" class="dropdown-item">Variedades</router-link>
+                    <router-link to="/login" class="dropdown-item">Para niños y niñas</router-link>
+                    <router-link to="/register" class="dropdown-item">escuela</router-link>
+                </base-dropdown>
+                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <i class="ni ni-collection d-lg-none"></i>
+                    <span class="nav-link-inner--text">Reservas</span>
+                </a>
+                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <i class="ni ni-collection d-lg-none"></i>
+                    <span class="nav-link-inner--text">Contactanos</span>
+                </a>
+                <base-dropdown tag="li" class="nav-item">
+                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text">Recorrido de proyectos</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Libreria</router-link>
                     <router-link to="/profile" class="dropdown-item">Variedades</router-link>
@@ -69,7 +87,7 @@
                     <router-link to="/register" class="dropdown-item">escuela</router-link>
                 </base-dropdown>
             </ul>
-            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+<!--             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/profile.php?id=100063753510793" target="_blank" rel="noopener"
                         data-toggle="tooltip" title="Like us on Facebook">
@@ -91,7 +109,7 @@
                         <span class="nav-link-inner--text d-lg-none">Twitter</span>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </base-nav>
     </header>
 </template>

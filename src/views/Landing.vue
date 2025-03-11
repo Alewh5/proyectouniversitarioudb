@@ -4,7 +4,8 @@
         <div class="position-relative">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
+                <div class="bg-fondo">
+                    <img v-lazy="'img/theme/imagen-2-sentosa.jpg'" class="card-img-top">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -18,27 +19,19 @@
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <h1 class="display-3  text-white">La mejor forma de regresar a clases!
-                                    <span>Froggy Store - Libreria y variedades</span>
+                            <div class="col-lg-12">
+                                <h1 class="display-3  text-white" style="font-size: 80px;">Tus sueños realizados con el espiritu del nuevo urbanismo
                                 </h1>
-                                <p class="lead  text-white">Busca en nuestro catalogo escolar, donde podras encontrar utiles, mochilas, y mucho mas!</p>
-                                <div class="btn-wrapper">
-                                    <base-button tag="a"
-                                                href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                                class="mb-3 mb-sm-0"
-                                                type="info"
-                                                icon="fa fa-code">
-                                        Catalogo escolar
-                                    </base-button>
-                                    <base-button tag="a"
-                                                href="https://wa.me/50377887721"
-                                                class="mb-3 mb-sm-0"
-                                                type="white"
-                                                icon="ni ni-chat-round"
-                                                target="_blank">
-                                        Crea tu cotización
-                                    </base-button>
+                                <span class="text-white">Asesoria <i class="fa fa-long-arrow-right"></i> </span>
+                            </div>
+                            <div class="row py-3 d-flex w-100 justify-content-between">
+                                <div class="slider-button d-flex">
+                                    <div class="slider-button1"><a href="/portfolio"><i class="fa fa-angle-left"></i></a></div>
+                                    <div class="slider-button2 active"><a href="/contact-one/"><i class="fa fa-angle-right"></i></a></div>
+                                </div>
+                                <div class="slider-button d-flex">
+                                    <div class="slider-button1"><a href="/portfolio">Proyectos</a></div>
+                                    <div class="slider-button2 active"><a href="/contact-one/">Contáctanos</a></div>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +40,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <!-- <section class="section section-lg pt-lg-0 mt-20">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -107,7 +100,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="section bg-secondary">
             <div class="container">
                 <div class="row row-grid align-items-center">

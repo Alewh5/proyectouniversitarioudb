@@ -106,51 +106,11 @@
     }
 
     .shape-default {
-        background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
-
-         :nth-child(1) {
-            background: shapes-default-color("span-1-bg");
-        }
-
-         :nth-child(2) {
-            background: shapes-default-color("span-2-bg");
-        }
-
-         :nth-child(3) {
-            background: shapes-default-color("span-3-bg");
-        }
-
-         :nth-child(4) {
-            background: shapes-default-color("span-4-bg");
-        }
-
-         :nth-child(5) {
-            background: shapes-default-color("span-5-bg");
-        }
+        background: red;
     }
 
     .shape-light {
-        background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
-
-         :nth-child(1) {
-            background: shapes-light-color("span-1-bg");
-        }
-
-         :nth-child(2) {
-            background: shapes-light-color("span-2-bg");
-        }
-
-         :nth-child(3) {
-            background: shapes-light-color("span-3-bg");
-        }
-
-         :nth-child(4) {
-            background: shapes-light-color("span-4-bg");
-        }
-
-         :nth-child(5) {
-            background: shapes-light-color("span-5-bg");
-        }
+        background: red;
     }
 
     .shape-dark {
